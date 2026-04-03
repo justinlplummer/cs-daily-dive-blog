@@ -32,11 +32,6 @@ github_username:  csdailydive
 theme: minima
 plugins:
   - jekyll-feed
-
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
 # Exclude from processing.
@@ -81,3 +76,8 @@ defaults:
     values:
       layout: "topic"
       title: "Topic"
+
+# Netlify configuration
+netlify:
+  # Enable pretty URLs
+  pretty_urls: true

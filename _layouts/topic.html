@@ -2,29 +2,52 @@
 layout: default
 ---
 
-<div class="topic-page">
-  <h1 class="topic-title">{{ page.title }}</h1>
-  
-  {% if page.description %}
-    <p class="topic-description">{{ page.description }}</p>
-  {% endif %}
+<div class="topic-page fade-in">
+  <div class="topic-card">
+    <div class="topic-card-content">
+      <div class="topic-card-header">
+        <h1 class="topic-title">{{ page.title }}</h1>
+        <p class="topic-card-meta">
+          <span class="topic-date">{{ page.date | date: "%b %-d, %Y" }}</span>
+        </p>
+      </div>
+      <div class="topic-card-description">
+        {{ page.description }}
+      </div>
+    </div>
+  </div>
 
-  <div class="posts-list">
-    {% if site.topics[page.title] %}
-      <h2>Posts in this topic</h2>
-      <ul class="post-list">
-        {% for post in site.topics[page.title] %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h3>
+  {%- if site.topics[page.title] -%}
+  <div class="posts-section">
+    <h2 class="post-list-heading">Posts in "{{ page.title }}"</h2>
+    <div class="post-list-grid">
+      {%- for post in site.topics[page.title] -%}
+      <div class="post-card fade-in">
+        <div class="post-card-content">
+          <div class="post-card-header">
+            <h3 class="post-card-title">
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h3>
+            <p class="post-card-meta">
+              <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+              {%- if post.topics -%}
+              <span class="post-topics">
+                {%- for topic in post.topics -%}
+                  <span class="tag">{{ topic }}</span>
+                {%- endfor -%}
+              </span>
+              {%- endif -%}
+            </p>
+          </div>
+          <div class="post-card-excerpt">
             {{ post.excerpt }}
-          </li>
-        {% endfor %}
-      </ul>
-    {% else %}
-      <p>No posts in this topic yet.</p>
-    {% endif %}
+          </div>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
   </div>
+  {%- else -%}
+  <p>No posts in this topic yet.</p>
+  {%- endif -%}
 </div>

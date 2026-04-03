@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="topic-page">
+  <h1 class="topic-title">{{ page.title }}</h1>
+  
+  {% if page.description %}
+    <p class="topic-description">{{ page.description }}</p>
+  {% endif %}
+
+  <div class="posts-list">
+    {% if site.topics[page.title] %}
+      <h2>Posts in this topic</h2>
+      <ul class="post-list">
+        {% for post in site.topics[page.title] %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h3>
+            {{ post.excerpt }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No posts in this topic yet.</p>
+    {% endif %}
+  </div>
+</div>

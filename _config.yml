@@ -77,7 +77,13 @@ defaults:
       layout: "topic"
       title: "Topic"
 
-# Netlify configuration
-netlify:
-  # Enable pretty URLs
-  pretty_urls: true
+# Custom color scheme - shy of dark mode (dark background with soft accent colors)
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      background-color: "#1a1a1a"
+      text-color: "#e0e0e0"
+      accent-color: "#4fc3f7"
+      secondary-accent: "#81c784"

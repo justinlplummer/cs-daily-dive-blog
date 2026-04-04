@@ -1,11 +1,6 @@
 ---
-layout: home
-title: CS Daily Dive
-description: A modern blog covering computer science, technology, gadgets, and education.
+layout: page
 ---
-
-<h1 class="page-heading">CS Daily Dive</h1>
-<p class="lead">Daily insights into computer science, technology trends, programming, and tech education. Your source for staying updated in the fast-moving tech world.</p>
 
 <!-- Controls Section -->
 <div class="controls fade-in">

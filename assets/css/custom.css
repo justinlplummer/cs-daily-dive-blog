@@ -331,8 +331,8 @@ a:hover {
   .ge    { font-style: italic } /* Generic.Emph */
   .gr    { color: #ff9e9e } /* Generic.Error */
   .gh    { color: #9cdcfe } /* Generic.Heading */
-  .gi    { color: #b5cea8; background-color: #2a2a2a } /* Generic.Inserted */
-  .gi .x { color: #b5cea8; background-color: #2a2a2a } /* Generic.Inserted.Specific */
+  .gi    { color: #007AFF; background-color: #2a2a2a } /* Generic.Inserted */
+  .gi .x { color: #007AFF; background-color: #2a2a2a } /* Generic.Inserted.Specific */
   .go    { color: #9cdcfe } /* Generic.Output */
   .gp    { color: #9cdcfe } /* Generic.Prompt */
   .gs    { font-weight: bold } /* Generic.Strong */
@@ -361,16 +361,16 @@ a:hover {
   .mh    { color: #ffcb8b } /* Literal.Number.Hex */
   .mi    { color: #ffcb8b } /* Literal.Number.Integer */
   .mo    { color: #ffcb8b } /* Literal.Number.Oct */
-  .sb    { color: #b5cea8 } /* Literal.String.Backtick */
-  .sc    { color: #b5cea8 } /* Literal.String.Char */
-  .sd    { color: #b5cea8 } /* Literal.String.Doc */
-  .s2    { color: #b5cea8 } /* Literal.String.Double */
+  .sb    { color: #007AFF } /* Literal.String.Backtick */
+  .sc    { color: #007AFF } /* Literal.String.Char */
+  .sd    { color: #007AFF } /* Literal.String.Doc */
+  .s2    { color: #007AFF } /* Literal.String.Double */
   .se    { color: #ff9e9e } /* Literal.String.Escape */
-  .sh    { color: #b5cea8 } /* Literal.String.Heredoc */
-  .si    { color: #b5cea8 } /* Literal.String.Interpol */
-  .sx    { color: #b5cea8 } /* Literal.String.Other */
+  .sh    { color: #007AFF } /* Literal.String.Heredoc */
+  .si    { color: #007AFF } /* Literal.String.Interpol */
+  .sx    { color: #007AFF } /* Literal.String.Other */
   .sr    { color: #9cdcfe } /* Literal.String.Regex */
-  .s1    { color: #b5cea8 } /* Literal.String.Single */
+  .s1    { color: #007AFF } /* Literal.String.Single */
   .ss    { color: #d2a8ff } /* Literal.String.Symbol */
   .bp    { color: #9cdcfe } /* Name.Builtin.Pseudo */
   .vc    { color: #9cdcfe } /* Name.Variable.Class */

@@ -6,7 +6,7 @@
   --secondary-color: #007AFF;    /* Soft green accent */
   --accent-color: #ffb74d;       /* Soft orange accent */
   --light-bg: #2a2a2a;           /* Very dark background */
-  --dark-text: #e0e0e0;          /* Soft white/light gray text */
+  --dark-text: #007AFF;          /* Soft white/light gray text */
   --light-text: #b0b0b0;         /* Medium gray for secondary text */
   --border-radius: 8px;
   --box-shadow: 0 2px 10px rgba(0,0,0,0.3);

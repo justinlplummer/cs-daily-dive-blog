@@ -10,6 +10,3 @@
 
 [context.deploy-preview]
   command = "bundle exec jekyll build"
-
-[[plugins]]
-  package = "@netlify/plugin-ruby"

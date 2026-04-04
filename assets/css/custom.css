@@ -354,7 +354,7 @@ a:hover {
   .nf    { color: #ff9e9e; font-weight: bold } /* Name.Function */
   .nn    { color: #0f766e } /* Name.Namespace */
   .nt    { color: #0f766e } /* Name.Tag */
-  .nv    { color: #0f766e } /* Name.Variable */
+  .nv    { color: #1f2937 } /* Name.Variable */
   .ow    { font-weight: bold; color: #d2a8ff } /* Operator.Word */
   .w     { color: #0f766e } /* Text.Whitespace */
   .mf    { color: #ffcb8b } /* Literal.Number.Float */

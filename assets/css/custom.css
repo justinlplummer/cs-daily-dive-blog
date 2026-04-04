@@ -315,6 +315,10 @@ a:hover {
   color: #e0e0e0 !important;
 }
 
+.highlight .n { 
+  color: #0f766e !important; 
+}
+
 /* Comments */
 .highlight .c,
 .highlight .cm,

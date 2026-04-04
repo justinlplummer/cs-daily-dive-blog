@@ -310,115 +310,42 @@ a:hover {
 }
 
 /* Syntax Highlighting for Dark Theme - Override Minima */
+
 .highlight { 
   background: #2a2a2a !important; 
   color: #e0e0e0 !important;
 }
 
-.highlight .n { 
-  color: #0f766e !important; 
-}
-
 /* Comments */
-.highlight .c,
-.highlight .cm,
-.highlight .c1 {
-  color: #8b949e !important;
-  font-style: italic;
-}
+.highlight .c { color: #8b949e !important; font-style: italic; }
 
-/* Keywords & Operators */
-.highlight .k,
-.highlight .o,
-.highlight .ow {
-  color: #ff79c6 !important;
-  font-weight: bold;
-}
+/* Keywords (for, if, return, etc.) */
+.highlight .k { color: #ff79c6 !important; font-weight: bold; }
 
-/* Keyword types */
-.highlight .kc,
-.highlight .kd,
-.highlight .kp,
-.highlight .kr,
-.highlight .kt {
-  color: #d2a8ff !important;
-  font-weight: bold;
-}
+/* Names (variables) */
+.highlight .n { color: #0f766e !important; }
 
-/* Function names */
-.highlight .nf {
-  color: #ff9e9e !important;
-  font-weight: bold;
-}
+/* Functions */
+.highlight .nf { color: #ff9e9e !important; font-weight: bold; }
 
-/* Class names */
-.highlight .nc {
-  color: #d2a8ff !important;
-  font-weight: bold;
-}
-
-/* Variable names  (THIS is n, arr, result, left, right, etc.) */
-.highlight .nv,
-.highlight .vc,
-.highlight .vg,
-.highlight .vi {
-  color: #0f766e !important;
-}
-
-/* Builtins / attributes / tags */
-.highlight .nb,
-.highlight .na,
-.highlight .nt,
-.highlight .nn,
-.highlight .bp {
-  color: #0f766e !important;
-}
-
-/* Numbers (0,1,2, etc.) */
-.highlight .m,
-.highlight .mf,
-.highlight .mh,
-.highlight .mi,
-.highlight .mo,
-.highlight .il {
-  color: #ffcb8b !important;
-}
+/* Classes */
+.highlight .nc { color: #d2a8ff !important; font-weight: bold; }
 
 /* Strings */
-.highlight .s,
-.highlight .s1,
-.highlight .s2,
-.highlight .sb,
-.highlight .sc,
-.highlight .sd,
-.highlight .sh,
-.highlight .si,
-.highlight .sx {
-  color: #007AFF !important;
-}
+.highlight .s { color: #007AFF !important; }
 
-/* Escapes / exceptions */
-.highlight .se,
-.highlight .ne,
-.highlight .gt,
-.highlight .gr {
-  color: #ff9e9e !important;
-  font-weight: bold;
-}
+/* Numbers */
+.highlight .m { color: #ffcb8b !important; }
 
-/* Generic headings / prompts */
-.highlight .gh,
-.highlight .gp,
-.highlight .go,
-.highlight .gu {
-  color: #0f766e !important;
-}
+/* Operators (= + - * /) */
+.highlight .o { color: #ff9d00 !important; }
 
-/* Inserted / deleted */
-.highlight .gi,
-.highlight .gd {
-  color: #007AFF !important;
-}
+/* Punctuation ( { } ( ) , . : ; ) */
+.highlight .p { color: #ff9d00 !important; }
+
+/* Builtins / attributes */
+.highlight .nb,
+.highlight .na { color: #0f766e !important; }
 
 /* ===== SYMBOLS / OPERATORS / PUNCTUATION ===== */
 

@@ -420,6 +420,26 @@ a:hover {
   color: #007AFF !important;
 }
 
+/* ===== SYMBOLS / OPERATORS / PUNCTUATION ===== */
+
+/* = + - * / % ! & | ^ ~ < > */
+pre[class*="language-"] .token.operator,
+code[class*="language-"] .token.operator {
+  color: #ff9d00 !important;
+}
+
+/* . , : ; ( ) { } [ ] */
+pre[class*="language-"] .token.punctuation,
+code[class*="language-"] .token.punctuation {
+  color: #ff9d00 !important;
+}
+
+/* property access dot: object.property */
+pre[class*="language-"] .token.property,
+code[class*="language-"] .token.property {
+  color: #ffd866 !important;
+}
+
 /* Footer Override */
 .home .site-footer {
   border-top: 1px solid #eee !important;
